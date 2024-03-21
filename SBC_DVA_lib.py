@@ -215,9 +215,9 @@ def reset_ina236(address):
 def calibrate_ina236():
     global Adcrange, Current_lsb
     
-    current_lsb_min = 5 / (math.pow(2, 15))
-    Current_lsb = current_lsb_min + 0.0000074
-    SHUNT_CAL = 0.00512 / (Current_lsb * 0.016)
+    current_lsb_min = 10 / (math.pow(2, 15))
+    Current_lsb = current_lsb_min + 0.0018
+    SHUNT_CAL = 0.00512 / (Current_lsb * 0.008)
     SHUNT_CAL = math.trunc(SHUNT_CAL)
     if (Adcrange == ADCRANGE_2):
         SHUNT_CAL = SHUNT_CAL / 4
