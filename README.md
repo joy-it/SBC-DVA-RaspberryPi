@@ -185,7 +185,7 @@ INA236.device_ID();
 
 ## Supported targets
 
-* for PXT/microbit
+for Raspberry Pi
 
 ## License
 
