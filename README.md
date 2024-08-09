@@ -1,6 +1,6 @@
 # Python Package for the ina236 High-precision digital I²C monitoring module for current (48 V, 8 A, 16 bit)
 
-This library provides a Microsoft Makecode package for the PCA9634 8-bit Fm+ I2C-bus LED driver.
+This library provides a Python Package for the ina236 High-precision digital I²C monitoring module for current.
 See **https://joy-it.net/products/SBC_DVA** for more details.
 
 ## Behaviour considered to be a pass
